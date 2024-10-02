@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lato' , sans-serif; */
+}
+
+/* .heading{
+    font-family: "Dancing Script", cursive;
+    width: 300px;
+    height: 50px;
+    margin-left: 200px;
+    margin-bottom: 450px;
+    font-size: 2rem;
+    box-sizing: border-box;
+} */
+
+body{
+    background: url(img.jpg) no-repeat center center / cover ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     
+}
+
+
+
+.container{
+    font-family: 'Lato' , sans-serif;
+    width: 35%;
+    height: 350px;
+    border-radius: 40px;
+    border :  5px solid goldenrod;
+    align-content: center;
+    padding-right: 70px;
+    margin-left: 50px;
+    
+    /* box-shadow: 50px -10px 4px 40px #efcf7c ; */
+
+    
+}
+
+
+#timer{
+      /* font-family: 'Lato' , sans-serif; */
+    width: 100%;
+    font-size :72px ;
+    margin: 0px auto;
+    text-align: center;
+    padding: 35px;
+    margin-left: 50px;
+  
+    
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom left, #ebb030,  #3e2202f2 ,#e6ac2f ); /* Define your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+
+
+.buttons{
+    text-align: center;
+    margin-left: 80px;
+    
+
+
+}
+
+
+button {
+    margin: 5px 10px;
+    border : none;
+    
+}
+
+
+button i {
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#play{
+    background-color: rgb(71, 55, 6);
+}
+#pause{
+    background-color: #d08e1c;
+}
+#reset{
+    background-color: red;
+}
